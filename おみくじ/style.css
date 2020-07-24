@@ -1,0 +1,44 @@
+body {
+ background: linear-gradient(-45deg, rgba(246, 255, 0, .5), rgba(255, 0, 161, .5)),
+ url(fuji.jpg);
+ background-size: cover;
+ font-family: "Hannari";
+ height: 100vh;
+}
+
+
+
+.container {
+ width: 70%;
+ margin: auto;
+ text-align: center;
+}
+
+h1 {
+ font-size: 4rem;
+ color: #eee;
+ text-shadow: 3px 0 #252525;
+}
+
+button {
+ font-size: 3rem;
+ color: #fff;
+ background-color:#f00;
+ margin: 20px;
+ padding: 5px;
+ border-radius: 10px;
+ transition-duration: 0.4s;
+ -webkit-transition-duration: 0.4s; /* Safari */
+}
+
+button:hover {
+ color: #fff;
+}
+
+.kuji {
+ width: 20%;
+ opacity: 80%;
+}
+
+
+
